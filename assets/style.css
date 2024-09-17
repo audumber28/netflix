@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+#main {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1000px, 100vw);
+  position: relative;
+  height: 70vh;
+  background-image: url("img/poster.jpg.jpg");
+}
+
+#main .box {
+  position: absolute;
+  top: 0px;
+  opacity: 0.69;
+  background-color: black;
+  height: 70vh;
+  width: 100%;
+}
+
+nav {
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 62px;
+  position: relative;
+  z-index: 1;
+}
+nav img {
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero {
+  padding: 0px;
+
+  gap: 8px;
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero > :nth-child(1) {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+}
+.hero > :nth-child(2) {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+.hero > :nth-child(3) {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.seperation {
+  height: 4px;
+  background-color: rgb(69, 48, 48);
+}
+.seperation2 {
+  height: 4px;
+  background-color: rgb(69, 48, 48);
+}
+.button {
+  color: white;
+  padding: 3px 15px;
+  font-weight: 500;
+  border: 0.5px solid white;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.144);
+}
+.buttonred {
+  padding: 9px 44px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.buttonred2 {
+  background-color: red;
+  color: white;
+}
+#main input {
+  padding: 18px 142px 16px 5px;
+  font-size: 14px;
+  color: white;
+  border-radius: 7px;
+  background-color: rgb(23, 23, 23, 0.2);
+}
+.first {
+  display: flex;
+  justify-content: center center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+}
+.imgtv {
+  position: relative;
+
+  width: 30vw;
+}
+body {
+  background-color: black;
+}
+video {
+  position: absolute;
+  top: 87px;
+  left: 75px;
+  z-index: -10;
+}
+section .first > div {
+  display: flex;
+  flex-direction: column;
+}
+.first > div :nth-child(1) {
+  font-weight: 900;
+  font-size: 48px;
+}
+.first > div :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+.second {
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 81vw;
+}
+.second div > div {
+  font-weight: 900;
+  font-size: 48px;
+}
+.second div :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+.fourth {
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 81vw;
+}
+.fourth div > div {
+  font-weight: 900;
+  font-size: 48px;
+}
+.fourth div :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+.third {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+}
+section .third > div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 80vw;
+}
+.third > div :nth-child(1) {
+  color: white;
+  position: relative;
+  z-index: 11;
+  font-weight: 900;
+  font-size: 48px;
+}
+.third > div :nth-child(2) {
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+}
+.third video {
+  position: relative;
+  top: -394px;
+  left: 88px;
+  z-index: 10;
+}
+.imgmac {
+  position: relative;
+  top: 132px;
+}
+
+.boxi{
+  width: 80vw;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 6px;
+  padding:25px 0px 25px 26px ;
+  display: flex;
+ 
+  background-color: rgba(85, 72, 72, 0.466);
+  color: white;
+  font-size: 24px;
+
+ 
+}
+.head{
+  padding: 43px 0px 0px 0px;
+  
+  display: flex;
+  
+  font-weight: 900;
+  color: white;
+  font-size: 48px;
+}
+.faq{
+  padding: 0px 0px 0px 130px;
+}
